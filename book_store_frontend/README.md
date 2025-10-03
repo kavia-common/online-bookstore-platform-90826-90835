@@ -1,16 +1,26 @@
-# book_store_frontend
+# Ocean Bookstore – book_store_frontend
 
-A new Flutter project.
+A modern Flutter mobile app frontend for an online bookstore.
 
-## Getting Started
+Theme: Ocean Professional (blue primary with amber accents), rounded corners, subtle shadows, minimalist layout, and smooth transitions.
 
-This project is a starting point for a Flutter application.
+Features implemented:
+- Home (featured books)
+- Catalog with search, category filter chips, and sorting (title, author, price, rating)
+- Book details with rating and add-to-cart
+- Cart with quantity controls and total price
+- Checkout (mock) with shipping/payment and order summary
+- Profile (mock) with simple edit and quick actions
 
-A few resources to get you started if this is your first Flutter project:
+Architecture and state:
+- Provider for app state: CatalogState (search/filter/sort), CartState, UserState
+- MockBookRepository simulates API calls and data flow
+- Stateless widgets and lightweight stateful screens organized in a single entry file for simplicity
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How to run:
+1. flutter pub get
+2. flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Notes:
+- No backend integration is included. Replace MockBookRepository with real API calls in the future.
+- All UI adheres to the Ocean Professional color palette and modern design guidelines.
