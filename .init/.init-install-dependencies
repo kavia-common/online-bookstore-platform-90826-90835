@@ -1,0 +1,4 @@
+{
+    "command": "flutter pub get",
+    "working_directory": "/home/kavia/workspace/code-generation/online-bookstore-platform-90826-90835/book_store_frontend"
+}
